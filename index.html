@@ -33,6 +33,12 @@
         color: #C60021;
         text-decoration: none;
       }
+      h2 {
+        text-align: center;
+      }
+      p {
+        text-align: justify;
+      }
       .nav-ul {
         margin: 0;
         padding: 0;
@@ -59,6 +65,16 @@
         object-fit: scale-down;
         border-radius: 50%;
         margin: 15px;
+      }
+      .contact-ul {
+        margin: 0;
+        padding: 0;
+        list-style-type: none;
+        text-align: center;
+      }
+      .contact-icon {
+        width: 75px;
+        margin: 10px;
       }
     </style>
   </head>
@@ -94,19 +110,35 @@
     </div>
     <div id="links">
       <h2>links</h2>
+      <p>For more information on my code, achievements and work history, please click on the icons below:</p>
       <div class="links">
-        <a href="https://github.com/piratejas/piratejas.github.io" target="_blank"><img src="images\gitHub.png" alt="GitHub logo" class="logo-link"></a>
-        <a href="https://www.freecodecamp.org/piratejas" target="_blank"><img src="images\freeCodeCamp.png" alt="freeCodeCamp logo" class="logo-link"></a>
-        <a href="https://www.codewars.com/users/piratejas" target="_blank"><img src="images\codewars.png" alt="Codewars logo" class="logo-link"></a>
-        <a href="https://www.codecademy.com/piratejas" target="_blank"><img src="images\codecademy.png" alt="Codecademy logo" class="logo-link"></a>
-        <a href="https://uk.linkedin.com/in/pira-tejasakulsin-44329390" target="_blank"><img src="images\linkedIn.png" alt="LinkedIn logo" class="logo-link"></a>
+        <figure>
+          <a href="https://github.com/piratejas/piratejas.github.io" target="_blank"><img src="images\gitHub.png" alt="GitHub logo" class="logo-link"></a>
+          <figcaption>GitHub</figcaption>
+        </figure>
+        <figure>
+          <a href="https://www.freecodecamp.org/piratejas" target="_blank"><img src="images\freeCodeCamp.png" alt="freeCodeCamp logo" class="logo-link"></a>
+          <figcaption>freeCodeCamp</figcaption>
+        </figure>
+        <figure>
+          <a href="https://www.codewars.com/users/piratejas" target="_blank"><img src="images\codewars.png" alt="Codewars logo" class="logo-link"></a>
+          <figcaption>Codewars</figcaption>
+        </figure>
+        <figure>
+          <a href="https://www.codecademy.com/piratejas" target="_blank"><img src="images\codecademy.png" alt="Codecademy logo" class="logo-link"></a>
+          <figcaption>Codecademy</figcaption>
+        </figure>
+        <figure>
+          <a href="https://uk.linkedin.com/in/pira-tejasakulsin-44329390" target="_blank"><img src="images\linkedIn.png" alt="LinkedIn logo" class="logo-link"></a>
+          <figcaption>LinkedIn</figcaption>
+        </figure>
       </div>
     </div>
     <div id="contact-details">
       <h2>contact</h2>
-        <ul>
-          <li></li>
-          <li></li>
+        <ul class="contact-ul">
+          <li><img src="images\email.png" alt="email icon" class="contact-icon"><figcaption>piratejas@gmail.com</figcaption></li>
+          <li><img src="images\telephone.png" alt="telephone icon" class="contact-icon"><figcaption>+44 (0)7990 516459</figcaption></li>
         </ul>
     </div>
     </section>
