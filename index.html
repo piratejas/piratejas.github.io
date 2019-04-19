@@ -16,12 +16,23 @@
         background: #E3E3E3;
         padding: 20px;
       }
+      ul {
+        margin: 0;
+        padding: 0;
+        list-style-type: none;
+      }
+      li {
+        display: inline-block;
+        margin-right: 20px;
+      }
       section {
         background: #F6F6F8;
         padding: 20px;
       }
       div {
         background: #E3E3E3;
+        padding: 5px 10px;
+        margin: 10px;
       }
       footer {
         background: #E3E3E3;
@@ -29,30 +40,41 @@
       }
       a {
         color: #C60021;
+        text-decoration: none;
       }
     </style>
   </head>
   <body>
-    <header>
+    <header id="home">
+      <nav>
+        <ul>
+          <li><a href="#home">home</a></li>
+          <li><a href="#about-me">about</a></li>
+          <li><a href="why-apply">objectives</a></li>
+          <li><a href="image-carousel">images</a></li>
+          <li><a href="links">links</a></li>
+          <li><a href="contact-details">contact</a></li>
+        </ul>
+      </nav>
       <h1>Hello, world of Founders & Coders!</h1>
       <p>My name's Pira, and welcome to my application page for the Summer 2019 cohort. Please, make yourself comfortable and feel free to take a look around - after all, I made this just for you!</p>
-      <p>You must have browsed a fair few of these by now, so if you're tired of scrolling you can just click <a href="#about-me">here to find out more about me</a>, <a href="#why-apply">here to read about why I'm applying</a>, <a href="#image-carousel">here to see an image carousel</a>, and <a href="#links">here for all the links that you require</a>. I hope you enjoy it, and if you need anything at all just give me a <a href="#contact-details">shout</a>. Cheers!
+      <p>You must have browsed a fair few of these by now, so if you're tired of scrolling you can simply click <a href="#about-me">to find out more about me</a>, <a href="#why-apply">to read about why I'm applying</a>, <a href="#image-carousel">to see an image carousel</a>, and <a href="#links">here for all the links that you require</a>. I hope you enjoy it, and if you need anything at all just <a href="#contact-details">give me a shout</a>. Cheers!
     </header>
     <section>
     <div id="about-me">
       <h2>About me</h2>
     </div>
     <div id="why-apply">
-      <h2>Why I'm applying</h2>
+      <h2>Objectives</h2>
     </div>
     <div id="image-carousel">
-      <h2>Image carousel</h2>
+      <h2>Images</h2>
     </div>
     <div id="links">
       <h2>Links</h2>
     </div>
     <div id="contact-details">
-      <h2>Contact details</h2>
+      <h2>Contact</h2>
     </div>
     </section>
     <footer>footer</footer>
