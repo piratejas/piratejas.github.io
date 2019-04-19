@@ -16,16 +16,6 @@
         background: #E3E3E3;
         padding: 20px;
       }
-      ul {
-        margin: 0;
-        padding: 0;
-        list-style-type: none;
-        text-align: center;
-      }
-      li {
-        display: inline-block;
-        margin: 15px;
-      }
       section {
         background: #F6F6F8;
         padding: 20px;
@@ -43,6 +33,16 @@
         color: #C60021;
         text-decoration: none;
       }
+      .nav-ul {
+        margin: 0;
+        padding: 0;
+        list-style-type: none;
+        text-align: center;
+      }
+      .nav-li {
+        display: inline-block;
+        margin: 15px;
+      }
       .hello-world {
         text-align: center;
         font-style: italic;
@@ -50,6 +50,7 @@
       }
       .links {
         text-align: center;
+        padding-top: 0px;
       }
       .logo-link {
         background: white;
@@ -64,13 +65,13 @@
   <body>
     <header id="home">
       <nav>
-        <ul>
-          <li><a href="#home">home</a></li>
-          <li><a href="#about-me">about</a></li>
-          <li><a href="#why-apply">objectives</a></li>
-          <li><a href="#image-carousel">images</a></li>
-          <li><a href="#links">links</a></li>
-          <li><a href="#contact-details">contact</a></li>
+        <ul class="nav-ul">
+          <li class="nav-li"><a href="#home">home</a></li>
+          <li class="nav-li"><a href="#about-me">about</a></li>
+          <li class="nav-li"><a href="#why-apply">objectives</a></li>
+          <li class="nav-li"><a href="#image-carousel">images</a></li>
+          <li class="nav-li"><a href="#links">links</a></li>
+          <li class="nav-li"><a href="#contact-details">contact</a></li>
         </ul>
       </nav>
       <h1 class="hello-world">Hello, world of Founders & Coders!</h1>
@@ -103,6 +104,10 @@
     </div>
     <div id="contact-details">
       <h2>contact</h2>
+        <ul>
+          <li></li>
+          <li></li>
+        </ul>
     </div>
     </section>
     <footer>footer</footer>
