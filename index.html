@@ -58,6 +58,9 @@
         text-align: center;
         padding-top: 0px;
       }
+      .links-figure {
+        display: inline-block;
+      }
       .logo-link {
         background: white;
         width: 100px;
@@ -72,9 +75,11 @@
         list-style-type: none;
         text-align: center;
       }
+      .contact-li {
+        display: inline-block;
+      }
       .contact-icon {
         width: 75px;
-        margin: 10px;
       }
     </style>
   </head>
@@ -112,23 +117,23 @@
       <h2>links</h2>
       <p>For more information on my code, achievements and work history, please click on the icons below:</p>
       <div class="links">
-        <figure>
+        <figure class="links-figure">
           <a href="https://github.com/piratejas/piratejas.github.io" target="_blank"><img src="images\gitHub.png" alt="GitHub logo" class="logo-link"></a>
           <figcaption>GitHub</figcaption>
         </figure>
-        <figure>
+        <figure class="links-figure">
           <a href="https://www.freecodecamp.org/piratejas" target="_blank"><img src="images\freeCodeCamp.png" alt="freeCodeCamp logo" class="logo-link"></a>
           <figcaption>freeCodeCamp</figcaption>
         </figure>
-        <figure>
+        <figure class="links-figure">
           <a href="https://www.codewars.com/users/piratejas" target="_blank"><img src="images\codewars.png" alt="Codewars logo" class="logo-link"></a>
           <figcaption>Codewars</figcaption>
         </figure>
-        <figure>
+        <figure class="links-figure">
           <a href="https://www.codecademy.com/piratejas" target="_blank"><img src="images\codecademy.png" alt="Codecademy logo" class="logo-link"></a>
           <figcaption>Codecademy</figcaption>
         </figure>
-        <figure>
+        <figure class="links-figure">
           <a href="https://uk.linkedin.com/in/pira-tejasakulsin-44329390" target="_blank"><img src="images\linkedIn.png" alt="LinkedIn logo" class="logo-link"></a>
           <figcaption>LinkedIn</figcaption>
         </figure>
@@ -137,12 +142,8 @@
     <div id="contact-details">
       <h2>contact</h2>
         <ul class="contact-ul">
-          <figure>
-            <li><img src="images\email.png" alt="email icon" class="contact-icon"><figcaption>piratejas@gmail.com</figcaption></li>
-          </figure>
-          <figure>
-            <li><img src="images\telephone.png" alt="telephone icon" class="contact-icon"><figcaption>+44 (0)7990 516459</figcaption></li>
-          </figure>
+            <li class="contact-li"><img src="images\email.png" alt="email icon" class="contact-icon"><figcaption>piratejas@gmail.com</figcaption></li>
+            <li class="contact-li"><img src="images\telephone.png" alt="telephone icon" class="contact-icon"><figcaption>+44 (0)7990 516459</figcaption></li>
         </ul>
     </div>
     </section>
