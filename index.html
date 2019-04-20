@@ -75,13 +75,13 @@
         list-style-type: none;
         text-align: center;
       }
-      .contact-li {
-        display: inline-block;
-
-      }
       .contact-icon {
         width: 75px;
-        margin: 0px 75px;
+        margin: 0;
+      }
+      .contact-icon-figure {
+        margin: 15px 75px;
+        display: inline-block;
       }
     </style>
   </head>
@@ -144,8 +144,12 @@
     <div id="contact-details">
       <h2>contact</h2>
         <ul class="contact-ul">
-            <li class="contact-li"><img src="images\email.png" alt="email icon" class="contact-icon"><figcaption>piratejas@gmail.com</figcaption></li>
-            <li class="contact-li"><img src="images\telephone.png" alt="telephone icon" class="contact-icon"><figcaption>+44 (0)7990 516459</figcaption></li>
+          <figure class="contact-icon-figure">
+            <li><img src="images\email.png" alt="email icon" class="contact-icon"><figcaption>piratejas@gmail.com</figcaption></li>
+          </figure>
+          <figure class="contact-icon-figure">
+            <li><img src="images\telephone.png" alt="telephone icon" class="contact-icon"><figcaption>+44 (0)7990 516459</figcaption></li>
+          </figure>
         </ul>
     </div>
     </section>
