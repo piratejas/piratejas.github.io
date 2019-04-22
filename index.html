@@ -14,7 +14,8 @@
       }
       header {
         background: #E3E3E3;
-        padding: 20px;
+        padding: 40px 20px 10px 20px;
+        margin-top: 20px;
       }
       section {
         background: inherit;
@@ -48,10 +49,23 @@
       }
       .nav-li {
         display: inline-block;
-        margin: 15px;
+        margin-top: 2px;
+        margin-bottom: 2px;
+        margin-right: 12px;
+        padding-left: 12px;
       }
-      .header-container {
-
+      .nav-li:hover {
+        transform: scale(1.2);
+      }
+      .fixed-nav {
+        position: fixed;
+        top: 0;
+        left: 0;
+        right: 0;
+        margin: 0px span;
+        padding: 0;
+        border: 2px solid #484E4F;
+        background: #F6F6F8;
       }
       .header-img {
         width: 150px;
@@ -61,6 +75,7 @@
         display: inline-block;
       }
       .header-text {
+        margin-top: 0px;
         padding-top: 0px;
       }
       .hello-world-header {
@@ -108,6 +123,7 @@
   </head>
   <body>
     <header id="home">
+    <div class="fixed-nav">
       <nav>
         <ul class="nav-ul">
           <li class="nav-li"><a href="#home">home</a></li>
@@ -118,14 +134,13 @@
           <li class="nav-li"><a href="#contact-details">contact</a></li>
         </ul>
       </nav>
+    </div>
       <h1 class="hello-world-header">Hello, world of Founders & Coders!</h1>
-    <div class="header-container">
       <img class="header-img" src="images\meWelcome.png" alt="welcome drinks">
     <div class="header-text">
       <p style="font-style: italic">I'm Pira, hospitality professional, wedding band bassist and - most importantly - a developing developer.</p>
       <p>Welcome to my application page for the Summer 2019 cohort. Please, make yourself comfortable and feel free to take a look around - after all, I made this just for you!</p>
       <p>You must have browsed a fair few of these by now, so if you're tired of scrolling you can simply click <a href="#about-me">to find out more about me</a>, <a href="#why-apply">to read about why I'm applying</a>, <a href="#image-carousel">to see an image carousel</a>, and <a href="#links">here for all the links that you require</a>. I hope you enjoy it, and if you need anything at all just <a href="#contact-details">give me a shout</a>. Cheers!
-    </div>
     </div>
     </header>
     <section>
