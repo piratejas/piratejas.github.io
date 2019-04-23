@@ -9,7 +9,7 @@
         background: #F6F6F8;
         color: #484E4F;
         font-family: Kanit, sans-serif;
-        margin: 5;
+        margin: 0;
         padding: 5;
       }
       header {
@@ -74,6 +74,8 @@
         float: left;
         border-radius: 10%;
         display: inline-block;
+        position: relative;
+        top: 10px;
       }
       .header-text {
         margin-top: 0px;
@@ -85,8 +87,8 @@
         font-size: 2.5em;
         margin: 0;
       }
-      .shadow-effect {
-        box-shadow: 10px 10px 5px grey;
+      .section-text {
+        padding: 5px 15px;
       }
       .links {
         text-align: center;
@@ -94,6 +96,9 @@
       }
       .links-figure {
         display: inline-block;
+      }
+      .links-figcap {
+        color: #C60021;
       }
       .links-icon:hover {
         transform: scale(1.2);
@@ -120,6 +125,9 @@
         margin: 15px 75px;
         display: inline-block;
       }
+      .shadow-effect {
+        box-shadow: 10px 10px 5px grey;
+      }
     </style>
   </head>
   <body>
@@ -145,12 +153,12 @@
     </div>
     </header>
     <section>
-    <div id="about-me" class="shadow-effect">
+    <div id="about-me" class="section-text shadow-effect">
       <h2>biography</h2>
       <p>audere est facere audere est facere audere est facere audere est facere audere est facere audere est facere audere est facere audere est facere audere est facere audere est facere audere est facere audere est facere audere est facere audere est facere audere est facere audere est facere audere est facere audere est facere audere est facere audere est facere audere est facere audere est facere</p>
       <p>audere est facere audere est facere audere est facere audere est facere audere est facere audere est facere audere est facere audere est facere audere est facere audere est facere audere est facere audere est facere audere est facere audere est facere audere est facere audere est facere audere est facere audere est facere audere est facere audere est facere audere est facere audere est facere</p>
     </div>
-    <div id="why-apply" class="shadow-effect">
+    <div id="why-apply" class="section-text shadow-effect">
       <h2>objectives</h2>
       <p>audere est facere audere est facere audere est facere audere est facere audere est facere audere est facere audere est facere audere est facere audere est facere audere est facere audere est facere audere est facere audere est facere audere est facere audere est facere audere est facere audere est facere audere est facere audere est facere audere est facere audere est facere audere est facere</p>
       <p>audere est facere audere est facere audere est facere audere est facere audere est facere audere est facere audere est facere audere est facere audere est facere audere est facere audere est facere audere est facere audere est facere audere est facere audere est facere audere est facere audere est facere audere est facere audere est facere audere est facere audere est facere audere est facere</p>
@@ -161,26 +169,26 @@
     <div id="links" class="shadow-effect">
       <h2>links</h2>
       <p>For more information on my code, achievements and work experience, please click on the icons below:</p>
-      <div class="links" class="shadow-effect">
+      <div class="links" class="section-text shadow-effect">
         <figure class="links-figure">
           <a href="https://github.com/piratejas/piratejas.github.io" target="_blank"><img src="images\gitHub.png" alt="GitHub logo" class="links-icon"></a>
-          <figcaption>GitHub</figcaption>
+          <figcaption class="links-figcap">GitHub</figcaption>
         </figure>
         <figure class="links-figure">
           <a href="https://www.freecodecamp.org/piratejas" target="_blank"><img src="images\freeCodeCamp.png" alt="freeCodeCamp logo" class="links-icon"></a>
-          <figcaption>freeCodeCamp</figcaption>
+          <figcaption class="links-figcap">freeCodeCamp</figcaption>
         </figure>
         <figure class="links-figure">
           <a href="https://www.codewars.com/users/piratejas" target="_blank"><img src="images\codewars.png" alt="Codewars logo" class="links-icon"></a>
-          <figcaption>Codewars</figcaption>
+          <figcaption class="links-figcap">Codewars</figcaption>
         </figure>
         <figure class="links-figure">
           <a href="https://www.codecademy.com/piratejas" target="_blank"><img src="images\codecademy.png" alt="Codecademy logo" class="links-icon"></a>
-          <figcaption>Codecademy</figcaption>
+          <figcaption class="links-figcap">Codecademy</figcaption>
         </figure>
         <figure class="links-figure">
           <a href="https://uk.linkedin.com/in/pira-tejasakulsin-44329390" target="_blank"><img src="images\linkedIn.png" alt="LinkedIn logo" class="links-icon"></a>
-          <figcaption>LinkedIn</figcaption>
+          <figcaption class="links-figcap">LinkedIn</figcaption>
         </figure>
       </div>
     </div>
@@ -188,7 +196,7 @@
       <h2>contact</h2>
         <ul class="contact-ul">
           <figure class="contact-icon-figure">
-            <li><img src="images\email.png" alt="email icon" class="contact-icon"><figcaption>piratejas@gmail.com</figcaption></li>
+            <li><img src="images\email.png" alt="email icon" class="contact-icon"><figcaption><a href="mailto:piratejas@gmail.com">piratejas@gmail.com</a></figcaption></li>
           </figure>
           <figure class="contact-icon-figure">
             <li><img src="images\telephone.png" alt="telephone icon" class="contact-icon"><figcaption>+44 (0)7990 516459</figcaption></li>
