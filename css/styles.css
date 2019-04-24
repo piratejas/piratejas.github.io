@@ -34,13 +34,21 @@ h2 {
 p {
   text-align: justify;
 }
-
+.shadow-effect {
+  box-shadow: 10px 10px 5px grey;
+}
+.flex-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
 /*---------- nav bar ----------*/
 .nav-ul {
   margin: 0;
   padding: 0;
   list-style-type: none;
   text-align: center;
+  font-size: 1.5vw;
 }
 .nav-li {
   display: inline-block;
@@ -202,9 +210,6 @@ p {
   margin: 0;
 }
 .contact-icon-figure {
-  margin: auto;
   display: inline-block;
-}
-.shadow-effect {
-  box-shadow: 10px 10px 5px grey;
+  padding: 0px 20px;
 }
