@@ -1,5 +1,8 @@
+* {
+  box-sizing: border-box;
+}
 body {
-  background: #F6F6F8;
+  background-color: #F6F6F8;
   color: #484E4F;
   font-family: Kanit, sans-serif;
   margin: 0;
@@ -90,15 +93,14 @@ p {
 }
 
 /*---------- image carousel ----------*/
-#carousel-container {
-  box-sizing: border-box;
+#carousel-section {
+
 }
 #carousel {
   position: relative;
   overflow: hidden;
   height: 612px;
   width: 612px;
-  margin: auto;
   border: 5px groove #484E4F;
 }
 /*-- carousel styles --*/
@@ -110,6 +112,7 @@ p {
   height: 100%;
   opacity: 0;
   transition: opacity 0.4s ease-in-out;
+  text-align: center;
 }
 .current {
   opacity: 1;
@@ -125,6 +128,12 @@ p {
   right: 0;
 }
 /*-- buttons --*/
+#button-box {
+  
+}
+#buttons {
+  text-align: center;
+}
 .button-style {
   cursor: pointer;
   color: #484E4F;
