@@ -112,21 +112,29 @@ p {
   height: 100%;
   opacity: 0;
   transition: opacity 0.4s ease-in-out;
+  text-align: center;
 }
 .current {
   opacity: 1;
 }
 .slide-caption {
-  color: #FDF6BB;
+  color: #E3E3E3;
   font-weight: bold;
   font-size: 15px;
+  text-shadow: -1px 1px 2px #000,
+				       1px 1px 2px #000,
+				       1px -1px 0 #000,
+				       -1px -1px 0 #000;
   position: absolute;
   padding: 20px;
-  bottom: 5px;
+  bottom: 15px;
   left: 0;
   right: 0;
 }
 /*-- buttons --*/
+#buttons {
+  text-align: center;
+}
 .button-style {
   cursor: pointer;
   color: #484E4F;
