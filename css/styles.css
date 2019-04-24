@@ -1,6 +1,6 @@
-* {
+/* {
   box-sizing: border-box;
-}
+}*/
 body {
   background-color: #F6F6F8;
   color: #484E4F;
@@ -75,7 +75,7 @@ p {
   border-radius: 10%;
   display: inline-block;
   position: relative;
-  top: 10px;
+  top: 15px;
 }
 .header-text {
   margin-top: 0px;
@@ -85,8 +85,10 @@ p {
 .hello-world-header {
   text-align: center;
   font-style: italic;
-  font-size: 2.5em;
+  font-size: 4vw;
   margin: 0;
+  background: #F6F6F8;
+  border: 2px solid #484E4F;
 }
 .section-text {
   padding: 5px 15px;
@@ -102,6 +104,8 @@ p {
   height: 612px;
   width: 612px;
   border: 5px groove #484E4F;
+  margin: 0;
+  padding: 0;
 }
 /*-- carousel styles --*/
 .slide {
@@ -118,7 +122,7 @@ p {
   opacity: 1;
 }
 .slide-caption {
-  color: #FDF6BB;
+  color: #E3E3E3;
   font-weight: bold;
   font-size: 15px;
   position: absolute;
@@ -129,7 +133,7 @@ p {
 }
 /*-- buttons --*/
 #button-box {
-  
+
 }
 #buttons {
   text-align: center;
