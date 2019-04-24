@@ -2,135 +2,13 @@
 <html lang="en">
 <html>
   <head>
-    <title>Pira Tejasakulsin's F&C Application Page</title>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="css\styles.css"/>
+    <link rel="stylesheet" href="css\carousel.css"/>
     <link href="https://fonts.googleapis.com/css?family=Kanit" rel="stylesheet">
-    <style>
-      body {
-        background: #F6F6F8;
-        color: #484E4F;
-        font-family: Kanit, sans-serif;
-        margin: 0;
-        padding: 5;
-      }
-      header {
-        background: #E3E3E3;
-        padding: 40px 20px 10px 20px;
-        margin-top: 20px;
-      }
-      section {
-        background: inherit;
-        padding: 20px;
-      }
-      div {
-        background: #E3E3E3;
-        padding: 5px 10px;
-        margin: 10px;
-      }
-      footer {
-        background: #E3E3E3;
-        padding: 10px 20px;
-      }
-      a {
-        color: #C60021;
-        text-decoration: none;
-      }
-      h2 {
-        color: #C60021;
-        text-align: center;
-      }
-      p {
-        text-align: justify;
-      }
-      .nav-ul {
-        margin: 0;
-        padding: 0;
-        list-style-type: none;
-        text-align: center;
-      }
-      .nav-li {
-        display: inline-block;
-        margin-top: 3px;
-        margin-bottom: 3px;
-        margin-right: 15px;
-        padding-left: 15px;
-      }
-      .nav-li:hover {
-        transform: scale(1.2);
-      }
-      .fixed-nav {
-        position: fixed;
-        top: 0;
-        left: 0;
-        right: 0;
-        margin: 0px;
-        padding: 0;
-        border-top: 2px solid #484E4F;
-        border-bottom: 2px solid #484E4F;
-        background: #F6F6F8;
-      }
-      .header-img {
-        width: 150px;
-        margin: 5px 10px;
-        float: left;
-        border-radius: 10%;
-        display: inline-block;
-        position: relative;
-        top: 10px;
-      }
-      .header-text {
-        margin-top: 0px;
-        padding-top: 0px;
-        padding-right: 0px;
-      }
-      .hello-world-header {
-        text-align: center;
-        font-style: italic;
-        font-size: 2.5em;
-        margin: 0;
-      }
-      .section-text {
-        padding: 5px 15px;
-      }
-      .links {
-        text-align: center;
-        padding-top: 0px;
-      }
-      .links-figure {
-        display: inline-block;
-      }
-      .links-figcap {
-        color: #C60021;
-      }
-      .links-icon:hover {
-        transform: scale(1.2);
-      }
-      .links-icon {
-        background: white;
-        width: 100px;
-        height: 100px;
-        object-fit: scale-down;
-        border-radius: 50%;
-        margin: 15px;
-      }
-      .contact-ul {
-        margin: 0;
-        padding: 0;
-        list-style-type: none;
-        text-align: center;
-      }
-      .contact-icon {
-        width: 75px;
-        margin: 0;
-      }
-      .contact-icon-figure {
-        margin: 15px 75px;
-        display: inline-block;
-      }
-      .shadow-effect {
-        box-shadow: 10px 10px 5px grey;
-      }
-    </style>
+    <title>Pira Tejasakulsin's F&C Application Page</title>
   </head>
+
   <body>
     <header id="home">
     <div class="fixed-nav">
@@ -166,6 +44,30 @@
     </div>
     <div id="image-carousel" class="shadow-effect">
       <h2>gallery</h2>
+      <div id="carousel-container">
+       <div id="carousel">
+         <div class="slide current">
+           <h3 class="caption">My parents &#10084;</h3>
+         </div>
+         <div class="slide">
+           <h3 class="caption">The girls: my sisters and nieces</h3>
+         </div>
+         <div class="slide">
+           <h3 class="caption">My grandmother: still going strong at 94!</h3>
+         </div>
+         <div class="slide">
+           <h3 class="caption">The band: dressed for festival season</h3>
+         </div>
+         <div class="slide">
+           <h3 class="caption">James: the man who told me about FAC!</h3>
+         </div>
+       </div>
+       <div id="buttons">
+         <button id="prev" class="button-style">prev</button>
+         <button id="pause" class="button-style icon">&#9208;</button>
+         <button id="next" class="button-style">next</button>
+       </div>
+     </div>
     </div>
     <div id="links" class="shadow-effect">
       <h2>links</h2>
@@ -206,5 +108,6 @@
     </div>
     </section>
     <footer>footer</footer>
+  <script src="js\carousel.js"></script>
   </body>
 </html>
