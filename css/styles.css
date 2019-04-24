@@ -1,5 +1,6 @@
 body {
-  background: #F6F6F8;
+  background-color: #F6F6F8;
+  /*background: url('/images/pineappleWallpaper.png') no-repeat cover;*/
   color: #484E4F;
   font-family: Kanit, sans-serif;
   margin: 0;
@@ -62,6 +63,7 @@ p {
 }
 .fixed-nav {
   position: fixed;
+  z-index: 1;
   top: 0;
   left: 0;
   right: 0;
