@@ -34,6 +34,8 @@ h2 {
 p {
   text-align: justify;
 }
+
+/*---------- nav bar ----------*/
 .nav-ul {
   margin: 0;
   padding: 0;
@@ -61,6 +63,8 @@ p {
   border-bottom: 2px solid #484E4F;
   background: #F6F6F8;
 }
+
+/*---------- header section ----------*/
 .header-img {
   width: 150px;
   margin: 5px 10px;
@@ -84,6 +88,76 @@ p {
 .section-text {
   padding: 5px 15px;
 }
+
+/*---------- image carousel ----------*/
+#carousel-container {
+  box-sizing: border-box;
+}
+#carousel {
+  position: relative;
+  overflow: hidden;
+  height: 612px;
+  width: 612px;
+  margin: auto;
+  border: 5px groove #484E4F;
+}
+/*-- carousel styles --*/
+.slide {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  opacity: 0;
+  transition: opacity 0.4s ease-in-out;
+}
+.current {
+  opacity: 1;
+}
+.slide-caption {
+  color: #FDF6BB;
+  font-weight: bold;
+  font-size: 15px;
+  position: absolute;
+  padding: 20px;
+  bottom: 5px;
+  left: 0;
+  right: 0;
+}
+/*-- buttons --*/
+.button-style {
+  cursor: pointer;
+  color: #484E4F;
+  background: #F6F6F8;
+  border-radius: 5%;
+  font-weight: bold;
+  width: 5em;
+  padding: 10px;
+}
+.button-style:hover {
+  background: grey;
+}
+.pause-button {
+  font-size: 1.2em;
+}
+/*-- carousel images --*/
+.slide:first-child {
+  background: url('../images/mumAndDad.jpg') no-repeat;
+}
+.slide:nth-child(2) {
+  background: url('../images/meGirls.png') no-repeat;
+}
+.slide:nth-child(3) {
+  background: url('../images/meGran.jpg') no-repeat;
+}
+.slide:nth-child(4) {
+  background: url('../images/manchowTomkat.jpg') no-repeat;
+}
+.slide:nth-child(5) {
+  background: url('../images/jame.jpg') no-repeat;
+}
+
+/*---------- links ----------*/
 .links {
   text-align: center;
   padding-top: 0px;
@@ -103,8 +177,10 @@ p {
   height: 100px;
   object-fit: scale-down;
   border-radius: 50%;
-  margin: 15px;
+  margin: auto;
 }
+
+/*---------- contacts ----------*/
 .contact-ul {
   margin: 0;
   padding: 0;
