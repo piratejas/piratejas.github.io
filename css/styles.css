@@ -15,11 +15,6 @@ section {
   background: inherit;
   padding: 20px;
 }
-div {
-  background: #E3E3E3;
-  padding: 5px 10px;
-  margin: 10px;
-}
 footer {
   background: #E3E3E3;
   padding: 10px 20px;
@@ -37,6 +32,11 @@ p {
 }
 .shadow-effect {
   box-shadow: 10px 10px 5px grey;
+}
+.div-box {
+  background: #E3E3E3;
+  padding: 5px 10px;
+  margin: 10px;
 }
 .flex-container {
   display: flex;
@@ -102,7 +102,7 @@ p {
 }
 
 /*---------- image carousel ----------*/
-#carousel-box {
+#gallery {
   box-sizing: border-box;
 }
 #carousel {
@@ -110,8 +110,9 @@ p {
   overflow: hidden;
   height: 612px;
   width: 612px;
+  object-fit: scale-down;
   margin: auto;
-  border: 5px groove #484E4F;
+  border: none;
 }
 /*-- carousel styles --*/
 .slide {
@@ -144,6 +145,10 @@ p {
 /*-- buttons --*/
 #buttons {
   text-align: center;
+}
+.button-box {
+  display: flex;
+  justify-content: center;
 }
 .button-style {
   cursor: pointer;
